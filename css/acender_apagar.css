@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    --primary-color: #665fa7;
+    --primary-hover: #857cb9;
+    --text-color: #fff;
+    --background: #18181b;
+    --form-control: #495057;
+    --border-form: #ced4da;
+    --button-submit: #11D499;
+}
+body {
+    background-color: var(--background);
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+}
+
+#alladin {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+#btn-acender,
+#btn-apagar {
+    padding: 5px;
+}
